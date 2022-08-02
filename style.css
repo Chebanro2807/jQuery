@@ -1,0 +1,11 @@
+body{
+    cursor: pointer;
+}
+
+.main, .hide{
+    background: red;
+}
+
+.active {
+    background: green;
+}
