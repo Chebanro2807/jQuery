@@ -3,10 +3,12 @@ function $ (selector){
 
     element.addClass = (className) => {
         element.classList.add(className)
+        return element
     }
 
-    element.hide = ()=>{
+    element.hide = () => {
         element.style.display = 'none'
+        return element
     }
 
     return element
